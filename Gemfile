@@ -1,4 +1,8 @@
 source 'https://rubygems.org'
+ruby '2.0.0'
+
+#Install devise for user login
+gem 'devise', '~> 3.1.0.rc2'
 
 #Install  Boostrap
 gem 'bootstrap-sass'
