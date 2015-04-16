@@ -1,10 +1,13 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
 
-#Install devise for user login
+# Install devise for user login
 gem 'devise', '~> 3.1.0.rc2'
 
-#Install  Boostrap
+# Install Paperclip for image upload
+gem 'paperclip', '~> 4.2'
+
+# Install  Boostrap
 gem 'bootstrap-sass'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
