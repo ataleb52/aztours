@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Aztours::Application.load_tasks
+ExploreAz::Application.load_tasks
