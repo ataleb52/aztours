@@ -17,3 +17,32 @@ $jumbotron-bg:			white;
 .navbar-brand {
      font-weight: bold;
 }
+
+.header_image {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-image: url(image-path('cover_photo.jpg')); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbotron {
+	background: none;
+	margin-bottom: 0;
+	color: black;
+	padding-right: 0;
+	padding-left: 0;
+	h1, h3 {
+		margin-top: 10px;
+	}
+}
+
+.header_text {
+	background: rgba(250, 245, 249, .4);
+	padding: 1em;
+	border-radius: 5px;
+	text-align: center;
+}
